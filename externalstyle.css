@@ -1,0 +1,33 @@
+/*
+Selector{
+    Property : Value ;
+    ...
+    ...
+}
+*/
+body{
+    background-color: ivory;
+    margin: 0px;
+    padding: 0px;
+}
+h2{/*Type Selector*/
+    margin: 0px; 
+}
+p{/*Type Selector*/
+    margin: 0px;
+}
+#intro{/*ID Selector*/
+    color: white;
+    background-color: gray;
+}
+#intro p{ /*Descendant Selector*/
+    text-align: center;
+}
+.first{/*Class Selector*/
+    font-size: 130%;
+    background-color: rgb(223, 172, 113);
+}
+.second{/*Class Selector*/
+    font-size: large;
+    background-color: rgb(251, 209, 154);
+}

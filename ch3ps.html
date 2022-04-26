@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model | Chapter 3 Practise Set</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            height : 34px;
+            /* border: 2px solid rgb(242, 130, 130); */
+            background-color: red;
+        }
+        .content{
+            height : max-content;
+            border: 2px solid burlywood;
+            background-color: wheat;
+            box-sizing: border-box;
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline;
+            margin-left: 10px;
+            color: aliceblue;
+        }
+        .copy{
+            text-align: center;
+        }
+        .box{
+            margin: 10px;
+            padding-left: 10px;
+            background-color: beige;
+            border: 2px solid brown;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+    <div class="content">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit optio, repellat cum, reprehenderit aut laudantium libero accusantium quam laboriosam repellendus voluptate blanditiis odit, quas qui non. Corrupti molestiae cum obcaecati voluptatum eaque perspiciatis laborum?
+        </p>
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <footer>
+        <p class="copy">
+            Copyright&copy; sportsmania 
+        </p>
+    </footer>
+</body>
+</html>
