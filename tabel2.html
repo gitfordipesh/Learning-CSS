@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel Border Properties</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .table1{
+            border-collapse: separate;
+            border-spacing: 4px 2px;
+        }
+        .caption1{
+            caption-side: bottom;
+        }
+        .caption2{
+            caption-side: top;
+        }
+        .table2{
+            border-collapse: collapse;
+            width: 100%;
+            border: 2px solid grey;
+            table-layout: fixed;
+        }
+        tr{
+            border: 5px solid mediumaquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>
+            Practicing Tabel Properties
+        </h2>
+    </header>
+    <table border="1" class="table1">
+        <caption class="caption1">
+            Colors
+        </caption>
+        <tr>
+            <td>Red</td>
+            <td>Green</td>
+        </tr>
+        <tr>
+            <td>Blue</td>
+            <td>Yellow</td>
+        </tr>
+    </table>
+    <table border="2" class="table2">
+        <caption class="caption2">
+            Some Courses
+        </caption>
+        <tr>
+            <th>Courses</th>
+            <th>Lessons</th>
+            <th>Quizes</th>
+        </tr>
+        <tr>
+            <td>C++</td>
+            <td>81</td>
+            <td>363</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>48</td>
+            <td>144</td>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>38</td>
+            <td>119</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>70</td>
+            <td>174</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
