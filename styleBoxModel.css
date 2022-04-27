@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding:0;
+    background-color: green;
+}
+p{
+    margin:0;
+    text-indent: 40px;
+}
+h1{
+    border: 5px solid purple;
+    margin: 0px;
+    border-radius: 5px;
+    text-align: center;
+    color:purple;
+}
+.none{
+    padding: 10px;
+    border-width: 2px;
+    border-style: none;
+    border-color: blue;
+}
+.solid{
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+}
+.dotted{
+    padding: 10px;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: blue;
+}
+.dashed{
+    padding: 10px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: blue;
+}
+.double{
+    padding: 10px;
+    border-width: 2px;
+    border-style: double;
+    border-color: blue;
+}
+.groove{
+    padding: 10px;
+    border-width: 2px;
+    border-style: groove;
+    border-color: blue;
+}
+.ridge{
+    padding: 10px;
+    border-width: 2px;
+    border-style: ridge;
+    border-color: blue;
+}
+.inset{
+    padding: 10px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: blue;
+}
+.outset{
+    padding: 10px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: blue;
+}
+.hidden{
+    padding: 10px;
+    border-width: 2px;
+    border-style: hidden;
+    border-color: blue;
+}

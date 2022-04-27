@@ -1,0 +1,19 @@
+.top{
+    vertical-align: top;
+}
+.middle{
+    vertical-align: middle;
+}
+.bottom{
+    vertical-align: bottom;
+}
+h2{
+    text-align: center;
+    text-decoration:overline;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 5px 2px 4px grey;
+}
+p{
+    text-indent: 60px;
+}

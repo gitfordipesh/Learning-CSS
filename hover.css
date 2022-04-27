@@ -1,0 +1,20 @@
+a:link{
+    text-decoration: double;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: red;
+    text-decoration: none;
+    cursor: hand;
+}
+a:active{
+    text-decoration: overline;
+}
+h2{
+    text-decoration: green wavy underline;
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration-thickness: 2px;
+}

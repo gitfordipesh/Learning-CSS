@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.table1{
+    border-collapse: separate;
+    border-spacing: 4px 2px;
+}
+.caption1{
+    caption-side: bottom;
+}
+.caption2{
+    caption-side: top;
+}
+.table2{
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid grey;
+    table-layout: fixed;
+}
+tr{
+    border: 5px solid mediumaquamarine;
+}

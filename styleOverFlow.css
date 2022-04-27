@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    background-color: burlywood;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+}
+p{
+    padding: 5px;
+    text-indent: 10px;
+}

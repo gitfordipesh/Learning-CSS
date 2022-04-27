@@ -1,0 +1,54 @@
+body{
+    background-color: #87CEFA;
+    background-image: url("https://empire-s3-production.bobvila.com/slides/30451/original/Gloxinia-flowering-houseplants.jpg?1551987245");
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-position:center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color: rgb(135, 206, 235);
+    background-color: transparent;
+    text-align: center;
+    color:whitesmoke;
+    text-emphasis-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    background-color: lightgreen;
+    color:purple;
+}
+div{
+    height: max-content;
+    width: 278px;
+    border: 2px transparent green;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+p{
+    margin: 2px 10px;
+    text-indent: 40px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+}
+#mydiv{
+    width: 70%;
+    height: max-content;
+    background-color: aliceblue;
+
+}
+div:hover{
+    box-shadow: 10px 5px 6px gray;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    display: inline;
+    padding: 4px;
+}
