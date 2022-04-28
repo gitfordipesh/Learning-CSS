@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning About Transitions</title>
+    <style>
+        .emptyDiv{
+            display: flex;
+            width: 250px;
+            height: 250px;
+            margin-top: 30px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        .filledDiv {
+            position: absolute;
+            top: 2vh;
+            left: 10vw;
+            width: 50px;
+            height: 50px;
+            margin-top: 35px;
+            background-color: #32CD32;
+            /* transition: width 3s;
+            transition: all 3s ease-in-out;
+            transition: background-color 3s linear; */
+            transition: all 3s linear;
+            transition-delay: 1000ms;
+        }
+
+        .filledDiv:hover {
+            height: 50vh;
+            width: 250px;
+            rotate: 25deg;
+            background-color: red;
+            cursor: pointer;
+            transform: rotate(30deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="emptyDiv">
+        <div class="filledDiv">
+
+        </div>
+    </div>
+</body>
+
+</html>
