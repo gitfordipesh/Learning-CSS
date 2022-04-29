@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('/Black.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    /* padding: 20px; */
+    position: sticky;
+    top: 0;
+}
+
+#download{
+    height: 25px;
+    width: 110px;
+    font-size: 0.8em;
+    background-color: grey;
+    color: whitesmoke;
+    border-style: none;
+}
+nav {
+    /* background: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.2) 25%,
+            rgba(255, 255, 255, 0.2) 75%,
+            rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1),
+        inset 0 0 1px rgba(255, 255, 255, 0.6); */
+        background-color: black;
+    color: whitesmoke;
+    padding: 10px 0px;
+    font-size: 1.2em;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 0px 10px;
+}
+
+.navcon {
+    display: flex;
+    padding: 0px 120px;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    max-width: 500px;
+    justify-content: right;
+}
+
+h2 {
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+
+.btn {
+    display: flex;
+    padding-top: 30px;
+}
+
+#view {
+    height: 50px;
+    width: 170px;
+    font-size: 1.2em;
+}
+
+#more {
+    height: 50px;
+    width: 170px;
+    font-size: 1.2em;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.article {
+    width: 60vw;
+    padding: 100px 30px;
+    color: white;
+    padding-left: 120px;
+}
+
+.main-content {
+    height: max-content;
+}
+
+.services {
+    background-color: white;
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+}
+
+.why h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.p2 {
+    text-align: center;
+    padding: 5px 150px;
+    padding-bottom: 50px;
+}
+
+.p1 {
+    padding: 50px 20px;
+}
+
+.agile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color: #6f42c1;
+    width: 25%;
+}
+
+.strategy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color: #e83e8c;
+    width: 25%;
+    padding-top: 20px;
+}
+
+.workplace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color: #20c997;
+    width: 25%;
+    padding-top: 20px;
+}
+
+.survival {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    background-color: #17a2b8;
+    width: 25%;
+}
+
+.work {
+    background-color: rgba(229, 242, 245, 0.87);
+}
+.projects{
+    background-color: white;
+}
+.why {
+    padding-top: 100px;
+}
+
+.three-section {
+    display: flex;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    width: 33%;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    width: 33%;
+}
+
+.execution {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: black;
+    width: 33%;
+}
+img{
+    width: 70vh;
+    padding:0px 80px;
+}
+.project1{
+    display: flex;
+    padding:20px;
+    justify-content: space-around;
+}
+.icon{
+    padding: 5px;
+}
+.details{
+    padding:0px 80px;
+}
+.cont{
+    padding-left: 30px;
+}
+.cont h3{
+    text-align: left;
+}
+.d1{
+    display: flex;
+}
